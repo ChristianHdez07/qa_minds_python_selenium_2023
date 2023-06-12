@@ -9,6 +9,7 @@ Ejercicio #03
         - Usuario inválido
         - Usuario con formato inválido de correo
 """
+
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -17,6 +18,7 @@ from selenium.webdriver.common.by import By
 CHROME_DRIVER_PATH = "./drivers/chrome/chromedriver.exe"
 CHROME_SERVICE = Service(CHROME_DRIVER_PATH)
 URL = "https://laboratorio.qaminds.com/index.php?route=account/login"
+
 
 class TestLaboratorioQAMinds:
 

@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
-CHROME_DRIVER_PATH = "./drivers/chromedriver.exe"
+CHROME_DRIVER_PATH = "./drivers/chrome/chromedriver.exe"
 CHROME_SERVICE = Service(CHROME_DRIVER_PATH)
 URL = "https://demoqa.com/select-menu"
 

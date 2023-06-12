@@ -14,7 +14,7 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-CHROME_DRIVER_PATH = "./drivers/chromedriver.exe"
+CHROME_DRIVER_PATH = "./drivers/chrome/chromedriver.exe"
 CHROME_SERVICE = Service(CHROME_DRIVER_PATH)
 URL = "https://demo.seleniumeasy.com/bootstrap-download-progress-demo.html"
 

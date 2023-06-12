@@ -23,7 +23,6 @@ URL = "https://laboratorio.qaminds.com/"
 
 class TestLaboratorioQAMinds:
 
-
     def setup_method(self):
         self.driver = webdriver.Chrome(service=CHROME_SERVICE)
         self.driver.maximize_window()
