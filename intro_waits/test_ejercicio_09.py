@@ -29,7 +29,7 @@ class TestLandingPage:
         self.driver.get(URL)
 
     def test_slow_loading_page(self):
-        # Obtener el elemento, y el estado importa
+        # Get the element, and the state matters
         button_download = self.__find_clickable_element(By.ID, "downloadButton")
         button_download.click()
         self.__find_by_text(By.CLASS_NAME, "progress-label", "Complete!")

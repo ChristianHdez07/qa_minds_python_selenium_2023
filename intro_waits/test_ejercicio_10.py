@@ -30,7 +30,7 @@ class TestLandingPage:
         self.driver.get(URL)
 
     def test_slow_loading_page(self):
-        # Obtener el elemento, y el estado importa
+        # Get the element, and the state matters
         dialog = self.__find_clickable_element(By.ID, "autoclosable-btn-success")
         dialog.click()
         self.__find_visible_element(By.XPATH, "//div[@class='alert alert-success alert-autocloseable-success']")

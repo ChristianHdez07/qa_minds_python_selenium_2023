@@ -10,7 +10,6 @@ Ejercicio #03
         - Usuario con formato inválido de correo
 """
 
-import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By

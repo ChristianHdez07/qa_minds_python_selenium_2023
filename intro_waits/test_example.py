@@ -19,7 +19,7 @@ class TestLandingPage:
         self.driver.get(URL)
 
     def test_slow_loading_page(self):
-        # Obtener el elemento, y el estado importa
+        # Get the element, and the state matters
         button = self.__find_clickable_element(By.XPATH, "//a[@href='/home/']")
         label = self.__find_visible_element(By.XPATH, "//*[contains(@class, 'slice--event-news')]//h3")
 
